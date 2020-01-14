@@ -1,3 +1,2 @@
-# wedding
-
-[演示链接](https://sunweiling.github.io/wedding/)
+# shyamwedsranjana.github.io
+this website is a marriage website for my brother's wedding made by modifying the Start Bootstrap Open Sourced template.
