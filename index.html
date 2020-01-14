@@ -1,188 +1,41 @@
-﻿<html>
-	
-<head>
-		
-<meta charset="utf-8">
-		
-<link rel="stylesheet" href="wedding.css">
-	
-</head>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="wedding.css">
+	</head>
 	<body>
-	
-
-</style>
-</head>
-<body onload="nextSlide()">
-
-<div id="clockdiv">
-  <div>
-    <span class="days" id="day"></span>
-    <div class="smalltext">Days</div>
-  </div>
-  <div>
-    <span class="hours" id="hour"></span>
-    <div class="smalltext">Hours</div>
-  </div>
-  <div>
-    <span class="minutes" id="minute"></span>
-    <div class="smalltext">Minutes</div>
-  </div>
-  <div>
-    <span class="seconds" id="second"></span>
-    <div class="smalltext">Seconds</div>
-  </div>
-
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="link">
-      <input type="button" value="Wedding Invitation" onclick="window.location.href='page1.html'"/>
-    </div>
- </div>
-<script>
- 
-var EndDate = new Date("Mar 2, 2020 11:15:00").getTime();
- 
-var myfunction = setInterval(function() {
- 
-var now = new Date().getTime();
-var Timer = EndDate - now;
-var days = Math.floor(Timer / (1000 * 60 * 60 * 24));
-var hours = Math.floor((Timer%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
-var minutes = Math.floor((Timer % (1000 * 60 * 60)) / (1000 * 60));
-var seconds = Math.floor((Timer % (1000 * 60)) / 1000);
-document.getElementById("day").innerHTML =days ;
-document.getElementById("hour").innerHTML =hours;
-document.getElementById("minute").innerHTML = minutes; 
-document.getElementById("second").innerHTML =seconds; 
-}, 1000);
-
-
- </script>
-			
-<img src="png/boom.png" alt="" class="boom1">
-			
-<img src="png/boom.png" alt="" class="boom2">
-			
-<img src="png/boom.png" alt="" class="boom3">
-		
-</div>
+		<div class="w-t">
+			<div class="w-t-m">老婆，嫁给我好吗？</div>
+			<img src="png/boom.png" alt="" class="boom1">
+			<img src="png/boom.png" alt="" class="boom2">
+			<img src="png/boom.png" alt="" class="boom3">
+		</div>
 		<div class="w-p">
-			
-<div class="w-m">
-				
-<img src="png/man.png" alt="">
-			
-</div>
-			
-<div class="w-w">
-				
-<img src="png/woman.png" alt="">
-			
-</div>
-			
-<div class="w-f">
-				
-<img src="png/flower.png" alt="">
-			
-</div>
-		
-</div>
-		
-<div class="w-fls">
-				
-<img src="png/flowers1.png" alt="">
-			
-<img src="png/flowers2.png" alt="">
-			
-<img src="png/flowers1.png" alt="">
-			
-<img src="png/flowers2.png" alt="">
-			
-<img src="png/flowers1.png" alt="">
-			
-<img src="png/flowers2.png" alt="">
-		
-</div>
+			<div class="w-m">
+				<img src="png/man.png" alt="">
+			</div>
+			<div class="w-w">
+				<img src="png/woman.png" alt="">
+			</div>
+			<div class="w-f">
+				<img src="png/flower.png" alt="">
+			</div>
+		</div>
+		<div class="w-fls">
+			<img src="png/flowers1.png" alt="">
+			<img src="png/flowers2.png" alt="">
+			<img src="png/flowers1.png" alt="">
+			<img src="png/flowers2.png" alt="">
+			<img src="png/flowers1.png" alt="">
+			<img src="png/flowers2.png" alt="">
+		</div>
 		<div class="w-fls w-2">
-			
-<img src="png/flowers1.png" alt="">
-			
-<img src="png/flowers2.png" alt="">
-			
-<img src="png/flowers1.png" alt="">
-			
-<img src="png/flowers2.png" alt="">
-			
-<img src="png/flowers1.png" alt="">
-			
-<img src="png/flowers2.png" alt="">
-	
-
-
-<img src="png/dhol.png" alt="">	
-<img src="png/kalash.png" alt="">
-<img src="png/elephant.png" alt="">
-<img src="png/song.png" alt="">
-</div>
-
-
-<style>
-body{
-  width: 100%;
-    text-align: center;
-    background: #f8f8ff;
-  font-family: sans-serif;
-  font-weight: 100;
-  background-image:url("abc.jpg");
-background-repeat: no-repeat;
-s
-}
-h1{
-  color: #437;
-  font-weight: 100;
-  font-size: 40px;
-  margin: 40px 0px 20px;
-}
-
-/*the big box*/
- #clockdiv{
-    font-family: sans-serif;
-    color: #f8f8ff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 30px;
-}
-#clockdiv > div{
-    padding: 10px;
-    border-radius: 3px;
-    background: #00BF96;
-    display: inline-block;
-}
-/*middle one*/
-#clockdiv div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #00816A;
-    display: inline-block;
-}
-<script>
- 
-var EndDate = new Date("Mar 2, 2020 11:15:00").getTime();
- 
-var myfunction = setInterval(function() {
- 
-var now = new Date().getTime();
-var Timer = EndDate - now;
-var days = Math.floor(Timer / (1000 * 60 * 60 * 24));
-var hours = Math.floor((Timer%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
-var minutes = Math.floor((Timer % (1000 * 60 * 60)) / (1000 * 60));
-var seconds = Math.floor((Timer % (1000 * 60)) / 1000);
-document.getElementById("day").innerHTML =days ;
-document.getElementById("hour").innerHTML =hours;
-document.getElementById("minute").innerHTML = minutes; 
-document.getElementById("second").innerHTML =seconds; 
-}, 1000);	</body>
+			<img src="png/flowers1.png" alt="">
+			<img src="png/flowers2.png" alt="">
+			<img src="png/flowers1.png" alt="">
+			<img src="png/flowers2.png" alt="">
+			<img src="png/flowers1.png" alt="">
+			<img src="png/flowers2.png" alt="">
+		</div>
+	</body>
 </html>
