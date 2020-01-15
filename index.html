@@ -187,7 +187,24 @@ document.getElementById("second").innerHTML =seconds;
 
  <audio controls autoplay>  
         <source src="abc.mp3" type="audio/mpeg">  
-    </audio>  
+    </audio> 
+
+<script>
+var audio = new Audio("http://music.ogg" ) ;
+
+audio.oncanplaythrough = function(){
+audio.play();
+}
+
+audio.loop = true;
+
+audio.onended = function(){
+audio.play();
+}
+
+</script>
+
+<input type="image" src="png/song.png" onclick="audio.play()"> 
 </body>
 
 <style>
@@ -244,7 +261,7 @@ h1{
       }
 <script>
  
-var EndDate = new Date("Mar 2, 2020 11:15:00").getTime();
+var EndDate = new Date("Mar 2, 2020 22:15:00").getTime();
  
 var myfunction = setInterval(function() {
  
